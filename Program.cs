@@ -8,7 +8,7 @@ namespace MM_draw
         {
             var size = int.Parse(Console.ReadLine());
 
-            for (int i = 0; i < (size + 1) / 2; ++i)
+            for (int i = 0; i < (size + 1) / 2; i++)
             {
                 Dash(size - i);
                 Star(size + 2 * i);
@@ -47,7 +47,7 @@ namespace MM_draw
         static void Dash(int count)
         {
 
-            for (int i = 0; i < count; ++i)
+            for (int i = 0; i < count; i++)
             {
                 Console.Write("-");
             }
@@ -56,7 +56,7 @@ namespace MM_draw
         static void Star(int count)
         {
 
-            for (int i = 0; i < count; ++i)
+            for (int i = 0; i < count; i++)
             {
                 Console.Write("*");
             }
